@@ -1,0 +1,16 @@
+﻿<Window x:Class="RadioBD.MenuWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RadioBD"
+        mc:Ignorable="d"
+        Title="База данных 'Мастерская послегарантийного ремонта радиоаппаратуры'" Height="450" Width="800" Loaded="Window_Loaded" ResizeMode="NoResize">
+    <Grid>
+        <Menu Height="25" VerticalAlignment="Top" x:Name="MenuCategories">
+            
+        </Menu>
+        <Label x:Name="LabelLogin" Content="" HorizontalAlignment="Right" Margin="0,0,0,0" VerticalAlignment="Bottom"/>
+
+    </Grid>
+</Window>
